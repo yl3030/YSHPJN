@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+
+body {
+    background-color: rgb(246, 246, 246);
+    font-family: 'Noto Sans TC', sans-serif;
+    color: rgb(46, 46, 46);
+}
+
+.box {
+    padding: 40px;
+    max-width: 1920px;
+    max-height: 1080px;
+}
+
+.finish {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.finish p {
+    border: 2px solid #6da9e0;
+    /* font-size: 24px; */
+    font-size: 1.4vw;
+    font-weight: 700;
+    padding: 10px 20px;
+    width: fit-content;
+    margin: 0 0 0 auto;
+    color: #0069C8;
+    border-radius: 20px;
+    background-color: #e6f3ff;
+    letter-spacing: 1.5px;
+}
+
+.table-box {
+    background-color: #fff;
+    width: 100%;
+    box-shadow: 0 1px 20px rgba(0,0,0,0.15);
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+table {
+    width: 100%;
+    border: 0;
+    border-collapse:collapse;
+}
+
+table tr {
+    border: 0;
+    border-bottom: 1px solid #eeeeee;
+    height: 95px;
+}
+
+table tr td {
+    border: 0;
+    padding: 15px 5px;
+    /* font-size: 20px; */
+    font-size: 1.3vw;
+    letter-spacing: 1.3px;
+}
+
+table tr td:first-child {
+    padding-left: 15px;
+}
+
+table tr.title {
+    background: linear-gradient(to right,#4566F4,#43B3F5);
+}
+
+table tr.title td {
+    color: #fff;
+    text-shadow: 0 1px 8px rgba(0,0,0,0.15);
+    font-weight: 700;
+}
+
+table tr td.line {
+    width: 6%;
+}
+
+table tr td.number {
+    width: 14%;
+}
+
+table tr td.customer {
+    width: 10%;
+}
+
+table tr td.processing {
+    width: 20%;
+}
+
+table tr td.spec {
+    width: 10%;
+}
+
+table tr td.enter-w {
+    width: 10%;
+}
+
+table tr td.final-w {
+    width: 10%;
+}
+
+table tr td.progress {
+    width: 10%;
+}
